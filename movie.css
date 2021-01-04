@@ -1,0 +1,104 @@
+body,
+html {
+  background-color: #05386b;
+}
+
+.ml3 {
+  font-weight: bolder;
+  font-size: 2.4em;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}
+
+.container {
+  margin: 2%;
+  margin-left: 16%;
+}
+.userInput {
+  margin: 0 5% !important;
+}
+
+input {
+  background-color: white !important;
+  color: black !important;
+}
+
+input::placeholder {
+  color: #6c757d !important;
+  /* border-radius: 15px; */
+}
+.box {
+  background-color: black;
+}
+
+/* .result {
+  display: block;
+} */
+
+#links {
+  overflow: hidden;
+}
+#iss a {
+  width: 1px;
+  height: 1px;
+  color: blue;
+  font-weight: bolder;
+  font-display: block;
+}
+
+#title_icon {
+  font-size: 900px;
+  color: whitesmoke;
+  font-family: cursive;
+  font-weight: bolder;
+
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+
+#nav1 {
+  border: 2px solid black;
+  width: 100%;
+  height: 48px;
+  padding: 6px;
+  /* display: inline; */
+}
+#logo {
+  color: wheat;
+  font-weight: bolder;
+  font-family: cursive;
+  text-align: left;
+  font-size: 24px;
+  margin-left: 20px;
+  display: inline;
+}
+
+#git_icon {
+  display: inline;
+  /* justify-content: center; */
+  color: white;
+  margin: auto;
+  padding: 6px;
+  font-size: 24px;
+  position: absolute;
+  width: 40%;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 2%;
+    margin-left: 3px;
+  }
+  /* #git_icon {
+    display: inline;
+    color: white;
+    padding: 6px;
+    font-size: 24px;
+    /* position: absolute; */
+  /* width: 50%; */
+  /* text-align: right; */
+  /* }  */
+}
